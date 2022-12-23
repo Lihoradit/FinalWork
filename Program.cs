@@ -1,2 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Введите слова через пробел:");
+string user_str=Console.ReadLine();
+string[] result= user_str.Split(' ');
